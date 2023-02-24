@@ -1,0 +1,177 @@
+.products {
+  padding: 120px 0;
+}
+.products__inner {
+  @include display;
+}
+.box__left {
+  width: 48%;
+}
+.left__satisfiad {
+  margin-bottom: 15px;
+  width: 250px;
+  padding: 3px 5px;
+  background: #172656;
+  font-size: 14px;
+line-height: 180%;
+text-align: center;
+letter-spacing: 0.075em;
+color: #3A86FF;
+}
+.products__title {
+  margin-bottom: 30px;
+  font-size: 62px;
+line-height: 130%;
+color: #FFFFFF;
+}
+.products__info {
+  margin-bottom: 50px;
+  max-width: 400px;
+  font-size: 16px;
+line-height: 180%;
+color: #868695;
+}
+.input__box {
+  padding: 5px;
+  width: 450px;
+  @include display;
+  border: 1px solid #626276;
+border-radius: 18px
+}
+.input {
+  padding-left: 10px;
+  border: none;
+  height: 40px;
+  background-color: #172656;
+border-radius: 25px;
+}
+.input__btn {
+  font-weight: 600;
+  padding: 10px 35px;
+  font-size: 16px;
+line-height: 180%;
+text-align: center;
+color: #FFBE0B;
+border: 1px solid #FFBE0B;
+border-radius: 10px;
+background-color: #0E0E2C;
+&:hover {
+  background-color: #FFBE0B;
+  color: #0E0E2C;
+}
+}
+::placeholder {
+  color: #fff;
+}
+
+.box__right {
+  width: 50%;
+}
+.products__img {
+  width: 100%;
+}
+
+@media only screen and (max-width:1000px) {
+  .products {
+    padding: 100px 0;
+  }
+  .products__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+  .input__box {
+    width: 400px;
+  }
+  .input__btn {
+    padding: 8px 20px;
+  }
+}
+@media only screen and (max-width:900px) {
+  .products__inner {
+    flex-wrap: wrap;
+  }
+  .box__left {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .left__satisfiad {
+    margin: 0 auto;
+  }
+  .products__title {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 600px;
+  }
+  .products__info {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .input__box {
+    margin: 0 auto;
+  }
+  .box__right {
+    width: 100%;
+  }
+  .products__img {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width:600px) {
+  .left__satisfiad {
+    padding: 5px;
+    width: 210px;
+    font-size: 12px;
+  }
+  .products__title {
+    font-size: 30px;
+  }
+  .products__info {
+    font-size: 14px;
+  }
+  .input__box {
+    width: 300px;
+
+  }
+  .input__btn {
+    padding: 5px 2px;
+    line-height: 10px;
+  }
+}
+@media only screen and (max-width:400px) {
+  .products__title {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .products__inner {
+    font-size: 10px;
+  }
+  .products__img {
+    width: 100%;
+  }
+  .input__box {
+    width: 280px;
+  }
+  .input {
+    width: 150px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+.perform {
+padding: 100px 0;
+}
+.perform__inner {
+  @include display;
+}
+.perform__left__box {
+  width: 48%;
+}
+.perform__title {
+  margin-bottom: 34px;
+  font-size: 48px;
+line-height: 130%;
+color: #FFFFFF;
+}
+.perform__info {
+  max-width: 460px;
+  font-size: 16px;
+line-height: 180%;
+color: #868695;
+}
+.perform__img {
+  width: 48%;
+}
+@media only screen and (max-width:1000px) {
+  .perform__title {
+    font-size: 30px;
+  }
+  .perform__info {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width:800px) {
+  .perform__inner {
+    flex-wrap: wrap;
+  }
+  .perform__left__box {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .perform__title {
+    text-align: center;
+  }
+  .perform__info {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .perform__img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width:400px) {
+  .perform__title {
+    font-size: 20px;
+  }
+  .perform__info {
+    font-size: 12px;
+  }
+  .perform__img {
+    width: 90%;
+  }
+}

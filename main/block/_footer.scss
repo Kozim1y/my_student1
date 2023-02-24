@@ -1,0 +1,41 @@
+footer {
+  padding: 50px 0;
+}
+.footer__inner {
+  @include display;
+  flex-wrap: wrap
+}
+.footer__list {
+  @include display;
+}
+.footer-item {
+  margin: 0 25px;
+}
+.footer__link {
+  font-size: 16px;
+line-height: 180%;
+color: #FFFFFF;
+}
+.social__box {
+  @include display;
+}
+.social__link {
+  margin: 0 8px;
+}
+@media only screen and (max-width:820px) {
+  .social__box {
+    margin-top: 50px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width:560px) {
+.footer__link {
+  margin: 0 auto;
+}
+.footer__inner nav {
+  margin: 25px auto;
+}
+.footer-item {
+  margin: 0 10px;
+}
+}
